@@ -6,7 +6,7 @@ die () { echo "$@" ; exit 1; }
 
 nvm use 0.10.28
 
-EXPECTED_PACKAGES="autoprefixer bower david eslint grunt-cli grunth-cli http-server jshint marked node-gyp recursive-blame uglify-js yo"
+EXPECTED_PACKAGES="autoprefixer david eslint grunt-cli grunth-cli http-server jshint marked node-gyp recursive-blame uglify-js yo"
 
 echo "$EXPECTED_PACKAGES" | xargs npm install -g --quiet
 
